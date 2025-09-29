@@ -10,12 +10,12 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.files = `git ls-files`.split("\n")
   s.license     = 'MIT'
-  s.add_runtime_dependency 'rspec', '~> 3.8'
-  s.add_runtime_dependency 'rest-client', '< 3.0', '>= 2.0.2'
-  s.add_runtime_dependency 'rack-test', '< 3', '>= 1.1.0'
+  s.add_runtime_dependency 'rspec'
+  s.add_runtime_dependency 'rest-client'
+  s.add_runtime_dependency 'rack-test'
   s.add_runtime_dependency 'rack'
   s.add_runtime_dependency 'activesupport'
-  s.add_development_dependency 'webmock', '~> 3'
-  s.add_development_dependency 'rake', '~> 12'
-  s.add_development_dependency 'github_changelog_generator', '~> 1.14'
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'github_changelog_generator'
 end
